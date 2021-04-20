@@ -1,3 +1,4 @@
 import numpy as np 
+import matplotlib.pyplot as plt
 
-print(?np.matrix)
+print(help(plt.show()))
