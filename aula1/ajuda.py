@@ -1,4 +1,4 @@
-#import numpy as np 
+import numpy as np 
 #from numpy.linalg import det,inv
 import sympy as sp
 
@@ -11,3 +11,5 @@ d1 = sp.Matrix([[a,b],[c,d]])
 d2 = sp.Matrix([[x,y],[w,z]])
 
 print(sp.Matrix.det(d1))
+
+print(help(np.dot))
