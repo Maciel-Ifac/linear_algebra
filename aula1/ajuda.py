@@ -11,5 +11,5 @@ d1 = sp.Matrix([[a,b],[c,d]])
 d2 = sp.Matrix([[x,y],[w,z]])
 
 print(sp.Matrix.det(d1))
-
-print(help(np.dot))
+print(d1)
+# print(help(np.dot))
